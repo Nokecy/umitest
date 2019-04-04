@@ -1,5 +1,4 @@
 import React from 'react';
-import classNames from 'classNames';
 import styles from './index.css';
 
 export interface ButtonProps {
@@ -9,7 +8,7 @@ export interface ButtonProps {
 const Button: React.FC<ButtonProps> = function(props) {
   return (
     <button
-      className={classNames("abc","bcd")}
+      className={styles.button}
       style={{
         fontSize: props.size === 'large' ? 40 : 20,
       }}

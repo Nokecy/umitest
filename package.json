@@ -1,0 +1,30 @@
+{
+  "name": "UmiTest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/UmiTest",
+  "scripts": {
+    "dev": "umi-lib doc dev",
+    "build": "umi-lib build"
+  },
+  "peerDependencies": {
+    "antd": "^3.16.1"
+  },
+  "dependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.8",
+    "@types/classnames": "^2.2.7",
+    "antd": "^3.16.1",
+    "umi-library": "^1.3.0",
+    "typescript": "^3.3.3"
+  },
+  "license": "MIT"
+}
